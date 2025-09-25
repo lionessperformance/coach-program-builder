@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Coach’s Program Builder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html, body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+      :root { --brand:#ea631b; --brand-soft:#c4e2f6; }
+      .brand-heading { color: var(--brand); }
+      .chip { background: var(--brand-soft); color:#0b2942; }
+      .btn { background: var(--brand); color:#fff; }
+      .tab { border-bottom: 2px solid transparent; }
+      .tab.active { border-color: var(--brand); color: var(--brand); font-weight: 600; }
+    </style>
+  </head>
+  <body class="bg-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
